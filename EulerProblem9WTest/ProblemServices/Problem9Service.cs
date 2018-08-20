@@ -31,7 +31,7 @@ namespace EulerProblem9WTest.ProblemService
                     }
                 }
             }
-            throw new NotImplementedException();
+            throw new Exception("No sum found");
         }
 
          private double FindC(int a, int b)
